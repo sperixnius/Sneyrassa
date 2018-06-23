@@ -29,7 +29,7 @@ new Client({
 	commandEditing: true,
 	console: { useColor: true, utc: true },
 	pieceDefaults: { commands: { deletable: true, promptLimit: 5, quotedStringSupport: true } },
-	prefix: 'm!',
-	presence: { activity: { name: 'Remixes of 2K18 🔥', type: 'LISTENING' } },
+	prefix: 'y!',
+	presence: { activity: { name: 'Yeets Playlist 🔥', type: 'LISTENING' } },
 	regexPrefix: /^(hey )?sneyra(,|!)/i
 }).login(config.token);
